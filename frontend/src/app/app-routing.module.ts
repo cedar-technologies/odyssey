@@ -5,6 +5,7 @@ import { CarePlanComponent } from './care-plan/care-plan.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { JournalComponent } from './journal/journal.component';
 import { ProfileComponent } from './profile/profile.component';
+import { ShareComponent } from './share/share.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,9 @@ const routes: Routes = [
   }, {
     path: 'my-profile',
     component: ProfileComponent
+  }, {
+    path: 'share',
+    component: ShareComponent
   }
 ];
 

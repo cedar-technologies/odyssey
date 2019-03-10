@@ -19,6 +19,7 @@ import { CarePlanComponent } from './care-plan/care-plan.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { JournalComponent } from './journal/journal.component';
 import { ProfileComponent } from './profile/profile.component';
+import { ShareComponent } from './share/share.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { ProfileComponent } from './profile/profile.component';
     CarePlanComponent,
     CalendarComponent,
     JournalComponent,
-    ProfileComponent
+    ProfileComponent,
+    ShareComponent
   ],
   imports: [
     BrowserModule,
