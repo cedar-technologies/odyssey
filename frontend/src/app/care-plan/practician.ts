@@ -1,5 +1,5 @@
 export class Practician {
-    name: string,
+    name: string;
     who: string;
     where: string;
     when: string;
