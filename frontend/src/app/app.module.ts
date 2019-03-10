@@ -7,6 +7,9 @@ import { HeaderComponent } from './shared/layout/header/header.component';
 import { FooterComponent } from './shared/layout/footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { CarePlanComponent } from './care-plan/care-plan.component';
+import { CalendarComponent } from './calendar/calendar.component';
+import { JournalComponent } from './journal/journal.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { CarePlanComponent } from './care-plan/care-plan.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    CarePlanComponent
+    CarePlanComponent,
+    CalendarComponent,
+    JournalComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
