@@ -7,6 +7,7 @@ import { FlatpickrModule } from 'angularx-flatpickr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CalendarModule, DateAdapter } from 'angular-calendar';
 import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -35,8 +36,10 @@ import { ProfileComponent } from './profile/profile.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    AngularFontAwesomeModule,
     CommonModule,
     FormsModule,
+    BrowserAnimationsModule,
     FlatpickrModule.forRoot(),
     CalendarModule.forRoot({
       provide: DateAdapter,
