@@ -4,9 +4,10 @@
     <div class="row">
       <div class="col-lg-4 text-center">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
+        <h2>Primary Care Provider</h2>
         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
         <p><button class="btn btn-lg btn-outline-primary" (click)="open(content)">Launch demo modal</button></p>
+        <p><button class="btn btn-lg btn-outline-primary" (click)="open(video)">show me</button></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4 text-center">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
@@ -61,30 +62,40 @@
 
   <ng-template #content let-modal>
       <div class="modal-header">
-        <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
+        <h4 class="modal-title" id="modal-basic-title">{{practician.name}} Details</h4>
         <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="dateOfBirth">Date of birth</label>
-            <div class="input-group">
-              <input id="dateOfBirth" class="form-control" placeholder="yyyy-mm-dd" name="dp" ngbDatepicker #dp="ngbDatepicker">
-              <div class="input-group-append">
-                <button class="btn btn-outline-secondary calendar" (click)="dp.toggle()" type="button"></button>
-              </div>
-            </div>
-          </div>
-        </form>
+          <h2>{{practician.name}} Details</h2>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button>
       </div>
     </ng-template>
     
+
+
+   
     
+
+    <ng-template #video let-modal>
+        <div class="modal-header">
+          <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
+          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+            <iframe height="500" width="700"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button>
+        </div>
+      </ng-template>
     
 
 
