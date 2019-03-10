@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/layout/header/header.component';
@@ -10,6 +13,7 @@ import { CarePlanComponent } from './care-plan/care-plan.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { JournalComponent } from './journal/journal.component';
 import { ProfileComponent } from './profile/profile.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +28,8 @@ import { ProfileComponent } from './profile/profile.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
