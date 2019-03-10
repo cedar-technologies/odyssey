@@ -1,0 +1,18 @@
+version: "2"
+
+services:
+  ####################### Keycloak Definition #######################
+  odyssey-frontend:
+    restart: always
+    container_name: odyssey-frontend
+    build:
+      context: frontend
+    ports:
+      - "4300:80"
+    networks:
+      - odyssey
+
+####################### Networks Definition #######################
+networks:
+  odyssey:
+    driver: "bridge"
