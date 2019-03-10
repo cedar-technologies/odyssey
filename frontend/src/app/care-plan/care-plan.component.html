@@ -1,12 +1,14 @@
-<div class="container marketing">
+<div class="container marketing" style="margin-top: 20px">
 
   <div class="row">
     <div class="col-lg-4 text-center" *ngFor="let practician of practicians">
       <img src="assets/{{practician.img}}" class="bubble" height="140" width="140" />
       <h2>{{ practician.name }}</h2>
       <p></p>
-      <p><button class="btn btn-lg btn-outline-primary" (click)="getDetails(content, practician)">More Detail</button></p>
-      <p><button class="btn btn-lg btn-outline-primary" (click)="open(video)">show me</button></p>
+      <p>
+        <button class="btn btn-outline-dark m-2" (click)="getDetails(content, practician)">More Detail</button>
+        <button class="btn btn-outline-dark m-2" (click)="open(video)">video</button>
+      </p>
     </div>
   </div>
 

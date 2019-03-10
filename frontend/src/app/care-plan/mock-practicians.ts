@@ -23,7 +23,7 @@ export const PRACTICIANS : Practician[] = [
         img: "pharmacist.jpg"
       },
       {
-        id: 2,
+        id: 3,
         name: "Laboratory",
         what: "",
         how: "Laboratory services are responsible for 80%( check this) of your diagnosis.  This is achieved by following a series of steps to reach your goal of a diagnosis.The first step involves collection of samples.  This includes the collection of blood and other various body fluids, tissues and cells samples collected by a doctor/nurse in an outpatient or inpatient setting",
@@ -33,28 +33,18 @@ export const PRACTICIANS : Practician[] = [
         img: "laboratory.jpg"
       },
       {
-        id: 2,
-        name: "Primary Care Provider",
+        id: 4,
+        name: "Cancer Care Team",
         what: "",
         how: "",
         when: "",
         where: "",
         who: "",
-        img: "diagnostic_imaging.jpg"
+        img: "cancer_care_team.jpg"
       },
       {
-        id: 2,
-        name: "Primary Care Provider",
-        what: "",
-        how: "",
-        when: "",
-        where: "",
-        who: "",
-        img: "diagnostic_imaging.jpg"
-      },
-      {
-        id: 2,
-        name: "Primary Care Provider",
+        id: 5,
+        name: "Diagnostic Imaging",
         what: "",
         how: "",
         when: "",
