@@ -4,7 +4,7 @@
     <div class="col-lg-4 text-center" *ngFor="let practician of practicians">
       <img src="assets/{{practician.img}}" class="bubble" height="140" width="140" />
       <h2>{{ practician.name }}</h2>
-      <p></p>
+      <p> {{ practician.intro }}</p>
       <p>
         <button class="btn btn-outline-dark m-2" (click)="getDetails(content, practician)">More Detail</button>
         <button class="btn btn-outline-dark m-2" (click)="open(video)">video</button>
@@ -51,7 +51,7 @@
     </button>
   </div>
   <div class="modal-body text-center">
-    <iframe height="500" width="700" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    <iframe height="500" width="700" src="https://www.youtube.com/embed/TxdnOp07xNc">
     </iframe>
   </div>
   <div class="modal-footer">

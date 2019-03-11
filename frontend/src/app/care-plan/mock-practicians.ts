@@ -4,7 +4,8 @@ import { Practician } from './practician';
 export const PRACTICIANS : Practician[] = [
     {
         id: 1,
-        name: "Primary Care Provider",
+        name: "Familly Doctor",
+        intro: "Your next appointment is on March 25th. Do you have any questions to bring",
         what: "You will most likely see your primary care provider in their office.  Appointment lengths are based on your reason for visit.  They will review with you your reason for visit, and may take time to review your current health status and medications.  Your visit may include a routine physical assessment such as checking your blood pressure, weight, or listening to breathing with a stethoscope.",
         how: "Write down your questions ahead of time, listing your symptoms and concerns Bring along a list of any prescription or non-prescription (over the counter) medications that you take. Have a support person come along.",
         when: "Your primary care provider (PCP) should be your first call in non-emergency situations including prescription refills. You should also make an appointment with your PCP to follow-up after any visit to the Emergency Department or after an admission to the hospital. If you are receiving specialist treatment, such as cancer treatment, it is important to continue to see your PCP as they will continue to manage your general health care after your specialist treatments are over.",
@@ -15,6 +16,7 @@ export const PRACTICIANS : Practician[] = [
       {
         id: 2,
         name: "Pharmacist",
+        intro: "Your next appointment is on March 25th. Do you have any questions to bring",
         what: "Every time you have your prescription filled there is a series of steps your pharmacist  will perform: First your pharmacist will ask for your name, your British Columbia CareCard and one other piece of identification. Your pharmacist reviews your prescription to make sure: The medication, strength, and dosage instructions are appropriate for your health condition. The new prescription is okay to take with other medications you may be taking. There are no potential problems such as duplicate therapy or drug interactions. Your pharmacist will provide counseling on any new medication and will confirm/explain all details and instructions.",
         how: "You can connect with your pharmacist by phoning your local pharmacy, or by visiting in person. ",
         when: "At any local pharmacy, whenever they are open.",
@@ -26,6 +28,7 @@ export const PRACTICIANS : Practician[] = [
         id: 3,
         name: "Laboratory",
         what: "",
+        intro: "Your last visit to the lab was on march 4th. Your next test is scheduled for March 12th. Remembre to bring your stool sample.",
         how: "Laboratory services are responsible for 80%( check this) of your diagnosis.  This is achieved by following a series of steps to reach your goal of a diagnosis.The first step involves collection of samples.  This includes the collection of blood and other various body fluids, tissues and cells samples collected by a doctor/nurse in an outpatient or inpatient setting",
         when: "",
         where: "There are many places you can go to get your blood drawn.  Most communities have a variety of private and public labs.  These include outpatient labs connected to the hospitals or a Satellite Lab. ",
@@ -36,6 +39,7 @@ export const PRACTICIANS : Practician[] = [
         id: 4,
         name: "Cancer Care Team",
         what: "",
+        intro: "Your next appointment is on March 25th. Do you have any questions to bring",
         how: "",
         when: "",
         where: "",
@@ -46,6 +50,7 @@ export const PRACTICIANS : Practician[] = [
         id: 5,
         name: "Diagnostic Imaging",
         what: "",
+        intro: "Your next appointment is on March 25th. Do you have any questions to bring",
         how: "",
         when: "",
         where: "",

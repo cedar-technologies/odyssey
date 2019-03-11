@@ -7,4 +7,5 @@ export class Practician {
     how: string;
     what: string;
     img: string;
+    intro: string;
   }

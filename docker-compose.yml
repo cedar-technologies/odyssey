@@ -1,7 +1,7 @@
 version: "2"
 
 services:
-  ####################### Keycloak Definition #######################
+  ####################### odyssey Definition #######################
   odyssey-frontend:
     restart: always
     container_name: odyssey-frontend
